@@ -1,0 +1,267 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Eye",
+            "rotation" : [
+                -0.07462550699710846,
+                0.0003731326723936945,
+                0.001748561509884894,
+                0.9972100257873535
+            ],
+            "scale" : [
+                0.8725332021713257,
+                0.8725331425666809,
+                0.8725332617759705
+            ],
+            "translation" : [
+                1.4402098655700684,
+                0.9876909852027893,
+                2.375638484954834
+            ]
+        },
+        {
+            "name" : "EyeDistance",
+            "scale" : [
+                0.9724885821342468,
+                0.972488522529602,
+                0.9724885821342468
+            ],
+            "translation" : [
+                0.0009215176105499268,
+                -0.06562460958957672,
+                0.9884589314460754
+            ]
+        },
+        {
+            "children" : [
+                0,
+                1
+            ],
+            "mesh" : 1,
+            "name" : "Magikarp",
+            "translation" : [
+                -0.4358276128768921,
+                -0.24054370820522308,
+                -0.6892946362495422
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "eyeWhite",
+            "pbrMetallicRoughness" : {}
+        },
+        {
+            "doubleSided" : true,
+            "name" : "eyeBlack",
+            "pbrMetallicRoughness" : {}
+        },
+        {
+            "doubleSided" : true,
+            "name" : "magicarpBody",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sphere",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "MagikarpBody",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7,
+                        "TEXCOORD_0" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4098,
+            "max" : [
+                0.8251069188117981,
+                1.0768929719924927,
+                1.083371877670288
+            ],
+            "min" : [
+                -4.12518835067749,
+                -1.1107680797576904,
+                -1.0888595581054688
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4098,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 24192,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 258,
+            "max" : [
+                0.7184693217277527,
+                0.2832831144332886,
+                0.32207420468330383
+            ],
+            "min" : [
+                -4.016556739807129,
+                0.13191400468349457,
+                0.18811756372451782
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 258,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 1152,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 26492,
+            "max" : [
+                5.013282299041748,
+                5.448639869689941,
+                4.682185173034668
+            ],
+            "min" : [
+                -5.013282775878906,
+                -4.878026008605957,
+                -4.765441417694092
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 26492,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 26492,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 133632,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 49176,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 49176,
+            "byteOffset" : 49176
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48384,
+            "byteOffset" : 98352
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3096,
+            "byteOffset" : 146736
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3096,
+            "byteOffset" : 149832
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2304,
+            "byteOffset" : 152928
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 317904,
+            "byteOffset" : 155232
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 317904,
+            "byteOffset" : 473136
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 211936,
+            "byteOffset" : 791040
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 267264,
+            "byteOffset" : 1002976
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1270240,
+            "uri" : "magikarp.bin"
+        }
+    ]
+}
