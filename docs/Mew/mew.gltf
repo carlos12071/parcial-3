@@ -1,0 +1,88 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Mew_50MB"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mew_50MB",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2660413,
+            "max" : [
+                40.023475646972656,
+                99.86578369140625,
+                47.383934020996094
+            ],
+            "min" : [
+                -68.27476501464844,
+                4.544854164123535e-06,
+                -54.7225341796875
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2660413,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5125,
+            "count" : 2661852,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 31924956,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 31924956,
+            "byteOffset" : 31924956
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10647408,
+            "byteOffset" : 63849912
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 74497320,
+            "uri" : "mew.bin"
+        }
+    ]
+}
